@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+D:\Dev\Oculus-Passthrough\VisionEffects\Install\VisionEffects\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+D:\Dev\Oculus-Passthrough\VisionEffects\Install\VisionEffects\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+     Creating library D:\Dev\Oculus-Passthrough\VisionEffects\Install\build\bin\x64\Release\VisionEffects.lib and object D:\Dev\Oculus-Passthrough\VisionEffects\Install\build\bin\x64\Release\VisionEffects.exp
+  Generating code
+  17 of 160 functions (10.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  VisionEffects.vcxproj -> D:\Dev\Oculus-Passthrough\VisionEffects\Install\build\bin\x64\Release\VisionEffects.exe
