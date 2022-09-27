@@ -48,7 +48,7 @@ public class InteractionEvents : MonoBehaviour
             if (_messages != null)
             {
                 //_messages.text = $"DEVELOPMENT VERSION {_images.Count()}";
-                _messages.text = $"DEVELOPMENT VERSION ({_currentImage + 1}/{_images.Count()})";
+                //_messages.text = $"DEVELOPMENT VERSION ({_currentImage + 1}/{_images.Count()})";
 
                 HideAllImages();
                 ShowImage(_currentImage);
@@ -74,7 +74,7 @@ public class InteractionEvents : MonoBehaviour
             Debug.Log("------------- A -------------");
             _currentImage -= 1;
             if (_currentImage < 0) _currentImage = 0;
-            _messages.text = $"{_currentImage + 1}/{_images.Count()}";
+            //_messages.text = $"{_currentImage + 1}/{_images.Count()}";
 
             HideAllImages();
             ShowImage(_currentImage);
@@ -85,7 +85,7 @@ public class InteractionEvents : MonoBehaviour
             Debug.Log("------------- B -------------");
             _currentImage += 1;
             if (_currentImage >= _images.Count()) _currentImage = 0;
-            _messages.text = $"{_currentImage + 1}/{_images.Count()}";
+            //_messages.text = $"{_currentImage + 1}/{_images.Count()}";
 
             HideAllImages();
             ShowImage(_currentImage);
@@ -95,7 +95,7 @@ public class InteractionEvents : MonoBehaviour
         {
             Debug.Log("------------- Trigger -------------");
             _currentImage = 0;
-            _messages.text = $"{_currentImage + 1}/{_images.Count()}";
+            //_messages.text = $"{_currentImage + 1}/{_images.Count()}";
 
             HideAllImages();
             ShowImage(_currentImage);
@@ -113,5 +113,6 @@ public class InteractionEvents : MonoBehaviour
     private void ShowImage(int i)
     {
         _images[i].SetActive(true);
+        _messages.text = _imageNames[i];
     }
 }
