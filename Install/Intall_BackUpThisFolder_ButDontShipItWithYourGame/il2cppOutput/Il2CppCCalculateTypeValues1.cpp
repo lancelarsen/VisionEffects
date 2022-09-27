@@ -16777,6 +16777,12 @@ struct InteractionEvents_t1E31187E40D840B3C8D204F119D150920E016B93  : public Mon
 {
 	// TMPro.TextMeshPro InteractionEvents::_messages
 	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ____messages_4;
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> InteractionEvents::_images
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____images_5;
+	// System.Collections.Generic.List`1<System.String> InteractionEvents::_imageNames
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____imageNames_6;
+	// System.Int32 InteractionEvents::_currentImage
+	int32_t ____currentImage_7;
 };
 
 // Oculus.Voice.Demo.UIShapesDemo.InteractionHandler

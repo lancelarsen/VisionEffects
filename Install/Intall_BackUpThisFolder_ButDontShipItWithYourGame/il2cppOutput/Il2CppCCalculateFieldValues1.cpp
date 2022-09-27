@@ -26856,6 +26856,12 @@ struct InteractionEvents_t1E31187E40D840B3C8D204F119D150920E016B93  : public Mon
 {
 	// TMPro.TextMeshPro InteractionEvents::_messages
 	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ____messages_4;
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> InteractionEvents::_images
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____images_5;
+	// System.Collections.Generic.List`1<System.String> InteractionEvents::_imageNames
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____imageNames_6;
+	// System.Int32 InteractionEvents::_currentImage
+	int32_t ____currentImage_7;
 };
 
 // Oculus.Interaction.InteractorActiveState
@@ -38969,9 +38975,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5714[11] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5717[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3A51899FBAA581553000230A6A0F92898553245F_StaticFields, ___1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5719[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5719[4] = 
 {
-	static_cast<int32_t>(offsetof(InteractionEvents_t1E31187E40D840B3C8D204F119D150920E016B93, ____messages_4)),};
+	static_cast<int32_t>(offsetof(InteractionEvents_t1E31187E40D840B3C8D204F119D150920E016B93, ____messages_4)),static_cast<int32_t>(offsetof(InteractionEvents_t1E31187E40D840B3C8D204F119D150920E016B93, ____images_5)),static_cast<int32_t>(offsetof(InteractionEvents_t1E31187E40D840B3C8D204F119D150920E016B93, ____imageNames_6)),static_cast<int32_t>(offsetof(InteractionEvents_t1E31187E40D840B3C8D204F119D150920E016B93, ____currentImage_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5724[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass41_0_tD03998B72130E379210125F837D005B365C1708B, ___handler_0)),};
